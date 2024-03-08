@@ -1,0 +1,55 @@
+properties:
+  Regency_60810:
+    property_name: Plaza Venezia
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill_agent_sites/Marc-Elias/assets/images/Regency_60810/60810.png
+    vacancies:
+    - gla: 2282
+      id: '7598'
+    - gla: 1066
+      id: '7608'
+    - gla: 678
+      id: '206'
+  Regency_80047:
+    property_name: Kirkman Shoppes
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill_agent_sites/Marc-Elias/assets/images/Regency_80047/80047.png
+    vacancies:
+    - gla: 1980
+      id: '11'
+  Regency_80048:
+    property_name: Lake Mary Centre
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill_agent_sites/Marc-Elias/assets/images/Regency_80048/80048.png
+    vacancies:
+    - gla: 1300
+      id: F-4
+    - gla: 1295
+      id: G-5
+    - gla: 2590
+      id: G-6
+    - gla: 1543
+      id: H-1
+    - gla: 6267
+      id: L-1A
+    - gla: 2800
+      id: Q2-Q3
+    - gla: 1250
+      id: T8
+    - gla: 1000
+      id: T-9
+  Regency_80105:
+    property_name: Unigold Shopping Center
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill_agent_sites/Marc-Elias/assets/images/Regency_80105/80105.png
+    vacancies:
+    - gla: 1607
+      id: '1'
+    - gla: 1400
+      id: '18'
+    - gla: 1403
+      id: '2'
+    - gla: 1200
+      id: '20'
+    - gla: 2700
+      id: 30-32
+    - gla: 1870
+      id: '37'
+    - gla: 31500
+      id: B

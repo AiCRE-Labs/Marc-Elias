@@ -1,0 +1,61 @@
+---
+permalink: /404.html
+layout: default
+---
+
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>Great Galaxy!</h1>
+  <br>
+
+  <h1>🌀</h1>
+  <br>
+  
+  <span id="oops"></span>
+  <br>
+  <h1>🚀</h1>
+  <br>
+  <span id="letsleave"></span>
+</div>
+
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script>
+  var hello = new Typed('#oops', {
+    strings: ['🌀 Oops! You slipped into an uncharted sector of the Interverse. 🌀'],
+    typeSpeed: 20,
+    startDelay: 100,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+  });
+</script>
+
+<script>
+  var hello = new Typed('#letsleave', {
+    strings: ['🚀 Grab your flux capacitor and lets head back to safety. 🚀'],
+    typeSpeed: 20,
+    startDelay: 100,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+  });
+</script>

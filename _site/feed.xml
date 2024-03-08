@@ -1,0 +1,2493 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/Marc-Elias/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Marc-Elias/" rel="alternate" type="text/html" /><updated>2024-03-07T20:04:55-05:00</updated><id>http://localhost:4000/Marc-Elias/feed.xml</id><title type="html">AiCRE</title><entry><title type="html">Kirkman Shoppes</title><link href="http://localhost:4000/Marc-Elias/regency_80047/2024/03/04/Regency_80047.html" rel="alternate" type="text/html" title="Kirkman Shoppes" /><published>2024-03-04T08:34:38-05:00</published><updated>2024-03-04T08:34:38-05:00</updated><id>http://localhost:4000/Marc-Elias/regency_80047/2024/03/04/Regency_80047</id><content type="html" xml:base="http://localhost:4000/Marc-Elias/regency_80047/2024/03/04/Regency_80047.html"><![CDATA[<div class="slide-in-left">
+<h1>
+    <span id="head"></span>
+</h1>
+</div>
+
+<!-- <div class="slide-in-left">
+X vacancies out of Y spaces.
+</div> -->
+
+<div class="slide-in-left">
+    
+    
+<img src="/Marc-Elias/assets/images/Regency_80047/80047.png" alt="Property Site Plan" class="img-responsive" />
+</div>
+
+<div class="slide-in-left">
+<h1>
+    <span id="vacancies"></span>
+</h1>
+</div>
+
+<div class="slide-in-left">
+<table class="vacancies-table">
+<thead>
+    <tr>
+    <th>Space ID</th>
+    <th>GLA</th>
+    </tr>
+</thead>
+<tbody>
+    
+    <tr>
+    <td>11</td>
+    <td>1980</td>
+    </tr>
+    
+</tbody>
+</table>
+</div>
+
+<div class="slide-in-left">
+<h1>
+    <span id="diversity"></span>
+</h1>
+</div>
+
+<p><br /></p>
+
+<div class="slide-in-left">
+<img src="/Marc-Elias/assets/images/Regency_80047/diversity.svg" alt="Diversity Chart" class="img-responsive" />
+</div>
+
+<h3>About Diversity<h3>
+    <p class="small-text">We call how diverse the set of co-tenants is <strong>Property Diversity. Property Diversity </strong> ranges from 0% to 100%. 0% is the least diverse, meaning every tenant type is the same. 100% is the most diverse, meaning every tenant type is different. This metric considers both the presence and proportion of different tenant types in terms of the property’s overall GLA. It assumes that a more even distribution of GLA across tenant types indicates greater diversity. For more information about how metrics are calculated, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+<!-- Slide-in SVG image -->
+<div class="slide-in-left">
+<img src="/Marc-Elias/assets/images/Regency_80047/elasticity.svg" alt="Elasticity Chart" class="img-responsive" />
+</div>
+<h3>About Competitiveness<h3>
+    <p class="small-text"> How competitive each tenant is to every other tenant is measured by the cross tenant elasticity of demand. We then average the results and weight by tenant type GLA. The intuition of this metric is simple: competitors affect each other’s demand by increasing or decreasing their prices. Take Jelly and Jam stores as an example. Jelly stores compete with Jam stores. We know this because if the price of jelly goes up, people buy less jelly but buy more jam. On the other hand, if peanut butter gets more expensive, sales of both jelly and jam go down. Peanut Butter stores are not competitive with Jelly stores, while Jelly stores are quite competitive with Jam stores. For more information about how metrics are calculated, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+<hr />
+<br />
+<!-- Space Details and Images -->
+<div class="slide-in-left">
+<h1>
+    <span id="spaces"></span>
+</h1>
+</div>
+
+<div class="centered-text">
+    <h2>Space ID: 11</h2>
+    <h2>GLA: 1980</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, & Pet Care</td>
+            <td title="Score as a percentage">30%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, &amp; Pet Care</td>  
+            <td title="Score">12.0X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">18%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">7.1X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Postal Service</td>
+            <td title="Score as a percentage">14%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Postal Service</td>  
+            <td title="Score">5.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">11%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">4.5X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Food and Beverage Stores</td>
+            <td title="Score as a percentage">9%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Food and Beverage Stores</td>  
+            <td title="Score">3.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80047/11/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80047/11/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all .slide-in-left elements
+    const slideInElements = document.querySelectorAll('.slide-in-left');
+
+    // Function to handle the slide-in effect
+    function slideIn() {
+        slideInElements.forEach(element => {
+            // Add the 'start-slide-in' class to start the animation
+            element.classList.add('start-slide-in');
+    });
+    }
+
+    // Function to check if an image is loaded
+    function isImageLoaded(imgElement) {
+        return imgElement.complete && imgElement.naturalHeight !== 0;
+    }
+
+    // Check if all images are loaded and apply the slide-in effect
+    slideInElements.forEach(element => {
+        const img = element.querySelector('img');
+        if (img) {
+            if (isImageLoaded(img)) {
+                // Image is loaded, apply the slide-in effect
+                slideIn();
+            } else {
+                // If image is not loaded, add an event listener
+                img.addEventListener('load', slideIn);
+                img.addEventListener('error', function() {
+                    console.error('Image failed to load:', img.src);
+            });
+            }
+        }
+    });
+});
+
+</script>
+
+<script>
+var head = new Typed('#head', {
+    strings: [
+    'Property Profile for <strong class="strong">Kirkman Shoppes</strong>'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+
+<script>
+var head = new Typed('#diversity', {
+    strings: [
+    'Property Diversity and Competition'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+
+<script>
+var head = new Typed('#vacancies', {
+    strings: [
+    'Vacancies'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+
+<script>
+var head = new Typed('#spaces', {
+    strings: [
+    'Vacancy Detail and Fill Recommendations'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+    
+</h2></h2></div></h3></h3></h3></h3>]]></content><author><name></name></author><category term="Regency_80047" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Lake Mary Centre</title><link href="http://localhost:4000/Marc-Elias/regency_80048/2024/03/04/Regency_80048.html" rel="alternate" type="text/html" title="Lake Mary Centre" /><published>2024-03-04T08:34:20-05:00</published><updated>2024-03-04T08:34:20-05:00</updated><id>http://localhost:4000/Marc-Elias/regency_80048/2024/03/04/Regency_80048</id><content type="html" xml:base="http://localhost:4000/Marc-Elias/regency_80048/2024/03/04/Regency_80048.html"><![CDATA[<div class="slide-in-left">
+<h1>
+    <span id="head"></span>
+</h1>
+</div>
+
+<!-- <div class="slide-in-left">
+X vacancies out of Y spaces.
+</div> -->
+
+<div class="slide-in-left">
+    
+    
+<img src="/Marc-Elias/assets/images/Regency_80048/80048.png" alt="Property Site Plan" class="img-responsive" />
+</div>
+
+<div class="slide-in-left">
+<h1>
+    <span id="vacancies"></span>
+</h1>
+</div>
+
+<div class="slide-in-left">
+<table class="vacancies-table">
+<thead>
+    <tr>
+    <th>Space ID</th>
+    <th>GLA</th>
+    </tr>
+</thead>
+<tbody>
+    
+    <tr>
+    <td>F-4</td>
+    <td>1300</td>
+    </tr>
+    
+    <tr>
+    <td>G-5</td>
+    <td>1295</td>
+    </tr>
+    
+    <tr>
+    <td>G-6</td>
+    <td>2590</td>
+    </tr>
+    
+    <tr>
+    <td>H-1</td>
+    <td>1543</td>
+    </tr>
+    
+    <tr>
+    <td>L-1A</td>
+    <td>6267</td>
+    </tr>
+    
+    <tr>
+    <td>Q2-Q3</td>
+    <td>2800</td>
+    </tr>
+    
+    <tr>
+    <td>T8</td>
+    <td>1250</td>
+    </tr>
+    
+    <tr>
+    <td>T-9</td>
+    <td>1000</td>
+    </tr>
+    
+</tbody>
+</table>
+</div>
+
+<div class="slide-in-left">
+<h1>
+    <span id="diversity"></span>
+</h1>
+</div>
+
+<p><br /></p>
+
+<div class="slide-in-left">
+<img src="/Marc-Elias/assets/images/Regency_80048/diversity.svg" alt="Diversity Chart" class="img-responsive" />
+</div>
+
+<h3>About Diversity<h3>
+    <p class="small-text">We call how diverse the set of co-tenants is <strong>Property Diversity. Property Diversity </strong> ranges from 0% to 100%. 0% is the least diverse, meaning every tenant type is the same. 100% is the most diverse, meaning every tenant type is different. This metric considers both the presence and proportion of different tenant types in terms of the property’s overall GLA. It assumes that a more even distribution of GLA across tenant types indicates greater diversity. For more information about how metrics are calculated, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+<!-- Slide-in SVG image -->
+<div class="slide-in-left">
+<img src="/Marc-Elias/assets/images/Regency_80048/elasticity.svg" alt="Elasticity Chart" class="img-responsive" />
+</div>
+<h3>About Competitiveness<h3>
+    <p class="small-text"> How competitive each tenant is to every other tenant is measured by the cross tenant elasticity of demand. We then average the results and weight by tenant type GLA. The intuition of this metric is simple: competitors affect each other’s demand by increasing or decreasing their prices. Take Jelly and Jam stores as an example. Jelly stores compete with Jam stores. We know this because if the price of jelly goes up, people buy less jelly but buy more jam. On the other hand, if peanut butter gets more expensive, sales of both jelly and jam go down. Peanut Butter stores are not competitive with Jelly stores, while Jelly stores are quite competitive with Jam stores. For more information about how metrics are calculated, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+<hr />
+<br />
+<!-- Space Details and Images -->
+<div class="slide-in-left">
+<h1>
+    <span id="spaces"></span>
+</h1>
+</div>
+
+<div class="centered-text">
+    <h2>Space ID: F-4</h2>
+    <h2>GLA: 1300</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Gaming Industries</td>
+            <td title="Score as a percentage">21%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Gaming Industries</td>  
+            <td title="Score">8.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Other Services</td>
+            <td title="Score as a percentage">14%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Other Services</td>  
+            <td title="Score">5.4X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">13%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">5.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">8%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">3.3X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Clothing and Clothing Accessories Stores</td>
+            <td title="Score as a percentage">8%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Clothing and Clothing Accessories Stores</td>  
+            <td title="Score">3.3X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/F-4/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/F-4/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: G-5</h2>
+    <h2>GLA: 1295</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Gaming Industries</td>
+            <td title="Score as a percentage">21%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Gaming Industries</td>  
+            <td title="Score">8.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Other Services</td>
+            <td title="Score as a percentage">14%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Other Services</td>  
+            <td title="Score">5.4X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">13%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">5.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">8%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">3.3X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Clothing and Clothing Accessories Stores</td>
+            <td title="Score as a percentage">8%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Clothing and Clothing Accessories Stores</td>  
+            <td title="Score">3.3X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/G-5/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/G-5/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: G-6</h2>
+    <h2>GLA: 2590</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Gaming Industries</td>
+            <td title="Score as a percentage">24%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Gaming Industries</td>  
+            <td title="Score">9.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Other Services</td>
+            <td title="Score as a percentage">15%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Other Services</td>  
+            <td title="Score">6.0X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">14%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">5.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>
+            <td title="Score as a percentage">10%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>  
+            <td title="Score">3.8X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">7%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">2.9X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/G-6/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/G-6/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: H-1</h2>
+    <h2>GLA: 1543</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Gaming Industries</td>
+            <td title="Score as a percentage">23%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Gaming Industries</td>  
+            <td title="Score">9.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Other Services</td>
+            <td title="Score as a percentage">14%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Other Services</td>  
+            <td title="Score">5.7X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">13%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">5.4X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">10%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">3.9X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>
+            <td title="Score as a percentage">9%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>  
+            <td title="Score">3.7X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/H-1/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/H-1/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: L-1A</h2>
+    <h2>GLA: 6267</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Gaming Industries</td>
+            <td title="Score as a percentage">22%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Gaming Industries</td>  
+            <td title="Score">8.8X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Other Services</td>
+            <td title="Score as a percentage">14%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Other Services</td>  
+            <td title="Score">5.5X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>
+            <td title="Score as a percentage">13%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>  
+            <td title="Score">5.3X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">13%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">5.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">10%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">3.8X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/L-1A/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/L-1A/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: Q2-Q3</h2>
+    <h2>GLA: 2800</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Gaming Industries</td>
+            <td title="Score as a percentage">24%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Gaming Industries</td>  
+            <td title="Score">9.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Other Services</td>
+            <td title="Score as a percentage">15%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Other Services</td>  
+            <td title="Score">5.9X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">14%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">5.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>
+            <td title="Score as a percentage">9%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>  
+            <td title="Score">3.8X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">7%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">2.8X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/Q2-Q3/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/Q2-Q3/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: T8</h2>
+    <h2>GLA: 1250</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Gaming Industries</td>
+            <td title="Score as a percentage">19%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Gaming Industries</td>  
+            <td title="Score">7.8X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Other Services</td>
+            <td title="Score as a percentage">13%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Other Services</td>  
+            <td title="Score">5.1X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">12%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">4.9X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">8%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">3.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Clothing and Clothing Accessories Stores</td>
+            <td title="Score as a percentage">8%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Clothing and Clothing Accessories Stores</td>  
+            <td title="Score">3.1X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/T8/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/T8/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: T-9</h2>
+    <h2>GLA: 1000</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Gaming Industries</td>
+            <td title="Score as a percentage">21%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Gaming Industries</td>  
+            <td title="Score">8.5X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Other Services</td>
+            <td title="Score as a percentage">14%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Other Services</td>  
+            <td title="Score">5.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">11%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">4.3X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>
+            <td title="Score as a percentage">10%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>  
+            <td title="Score">4.0X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">9%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">3.5X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/T-9/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80048/T-9/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all .slide-in-left elements
+    const slideInElements = document.querySelectorAll('.slide-in-left');
+
+    // Function to handle the slide-in effect
+    function slideIn() {
+        slideInElements.forEach(element => {
+            // Add the 'start-slide-in' class to start the animation
+            element.classList.add('start-slide-in');
+    });
+    }
+
+    // Function to check if an image is loaded
+    function isImageLoaded(imgElement) {
+        return imgElement.complete && imgElement.naturalHeight !== 0;
+    }
+
+    // Check if all images are loaded and apply the slide-in effect
+    slideInElements.forEach(element => {
+        const img = element.querySelector('img');
+        if (img) {
+            if (isImageLoaded(img)) {
+                // Image is loaded, apply the slide-in effect
+                slideIn();
+            } else {
+                // If image is not loaded, add an event listener
+                img.addEventListener('load', slideIn);
+                img.addEventListener('error', function() {
+                    console.error('Image failed to load:', img.src);
+            });
+            }
+        }
+    });
+});
+
+</script>
+
+<script>
+var head = new Typed('#head', {
+    strings: [
+    'Property Profile for <strong class="strong">Lake Mary Centre</strong>'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+
+<script>
+var head = new Typed('#diversity', {
+    strings: [
+    'Property Diversity and Competition'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+
+<script>
+var head = new Typed('#vacancies', {
+    strings: [
+    'Vacancies'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+
+<script>
+var head = new Typed('#spaces', {
+    strings: [
+    'Vacancy Detail and Fill Recommendations'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+    
+</h2></h2></div></h2></h2></div></h2></h2></div></h2></h2></div></h2></h2></div></h2></h2></div></h2></h2></div></h2></h2></div></h3></h3></h3></h3>]]></content><author><name></name></author><category term="Regency_80048" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Unigold Shopping Center</title><link href="http://localhost:4000/Marc-Elias/regency_80105/2024/03/04/Regency_80105.html" rel="alternate" type="text/html" title="Unigold Shopping Center" /><published>2024-03-04T08:31:36-05:00</published><updated>2024-03-04T08:31:36-05:00</updated><id>http://localhost:4000/Marc-Elias/regency_80105/2024/03/04/Regency_80105</id><content type="html" xml:base="http://localhost:4000/Marc-Elias/regency_80105/2024/03/04/Regency_80105.html"><![CDATA[<div class="slide-in-left">
+<h1>
+    <span id="head"></span>
+</h1>
+</div>
+
+<!-- <div class="slide-in-left">
+X vacancies out of Y spaces.
+</div> -->
+
+<div class="slide-in-left">
+    
+    
+<img src="/Marc-Elias/assets/images/Regency_80105/80105.png" alt="Property Site Plan" class="img-responsive" />
+</div>
+
+<div class="slide-in-left">
+<h1>
+    <span id="vacancies"></span>
+</h1>
+</div>
+
+<div class="slide-in-left">
+<table class="vacancies-table">
+<thead>
+    <tr>
+    <th>Space ID</th>
+    <th>GLA</th>
+    </tr>
+</thead>
+<tbody>
+    
+    <tr>
+    <td>1</td>
+    <td>1607</td>
+    </tr>
+    
+    <tr>
+    <td>18</td>
+    <td>1400</td>
+    </tr>
+    
+    <tr>
+    <td>2</td>
+    <td>1403</td>
+    </tr>
+    
+    <tr>
+    <td>20</td>
+    <td>1200</td>
+    </tr>
+    
+    <tr>
+    <td>30-32</td>
+    <td>2700</td>
+    </tr>
+    
+    <tr>
+    <td>37</td>
+    <td>1870</td>
+    </tr>
+    
+    <tr>
+    <td>B</td>
+    <td>31500</td>
+    </tr>
+    
+</tbody>
+</table>
+</div>
+
+<div class="slide-in-left">
+<h1>
+    <span id="diversity"></span>
+</h1>
+</div>
+
+<p><br /></p>
+
+<div class="slide-in-left">
+<img src="/Marc-Elias/assets/images/Regency_80105/diversity.svg" alt="Diversity Chart" class="img-responsive" />
+</div>
+
+<h3>About Diversity<h3>
+    <p class="small-text">We call how diverse the set of co-tenants is <strong>Property Diversity. Property Diversity </strong> ranges from 0% to 100%. 0% is the least diverse, meaning every tenant type is the same. 100% is the most diverse, meaning every tenant type is different. This metric considers both the presence and proportion of different tenant types in terms of the property’s overall GLA. It assumes that a more even distribution of GLA across tenant types indicates greater diversity. For more information about how metrics are calculated, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+<!-- Slide-in SVG image -->
+<div class="slide-in-left">
+<img src="/Marc-Elias/assets/images/Regency_80105/elasticity.svg" alt="Elasticity Chart" class="img-responsive" />
+</div>
+<h3>About Competitiveness<h3>
+    <p class="small-text"> How competitive each tenant is to every other tenant is measured by the cross tenant elasticity of demand. We then average the results and weight by tenant type GLA. The intuition of this metric is simple: competitors affect each other’s demand by increasing or decreasing their prices. Take Jelly and Jam stores as an example. Jelly stores compete with Jam stores. We know this because if the price of jelly goes up, people buy less jelly but buy more jam. On the other hand, if peanut butter gets more expensive, sales of both jelly and jam go down. Peanut Butter stores are not competitive with Jelly stores, while Jelly stores are quite competitive with Jam stores. For more information about how metrics are calculated, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+<hr />
+<br />
+<!-- Space Details and Images -->
+<div class="slide-in-left">
+<h1>
+    <span id="spaces"></span>
+</h1>
+</div>
+
+<div class="centered-text">
+    <h2>Space ID: 1</h2>
+    <h2>GLA: 1607</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">27%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">10.9X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">11%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">4.4X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, & Pet Care</td>
+            <td title="Score as a percentage">11%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, &amp; Pet Care</td>  
+            <td title="Score">4.4X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Unknown</td>
+            <td title="Score as a percentage">10%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Unknown</td>  
+            <td title="Score">4.0X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>
+            <td title="Score as a percentage">7%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>  
+            <td title="Score">2.7X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/1/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/1/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: 18</h2>
+    <h2>GLA: 1400</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Clothing and Clothing Accessories Stores</td>
+            <td title="Score as a percentage">27%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Clothing and Clothing Accessories Stores</td>  
+            <td title="Score">10.8X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">17%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">6.8X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, & Pet Care</td>
+            <td title="Score as a percentage">9%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, &amp; Pet Care</td>  
+            <td title="Score">3.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">8%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">3.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Unknown</td>
+            <td title="Score as a percentage">8%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Unknown</td>  
+            <td title="Score">3.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/18/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/18/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: 2</h2>
+    <h2>GLA: 1403</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">23%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">9.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, & Pet Care</td>
+            <td title="Score as a percentage">12%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, &amp; Pet Care</td>  
+            <td title="Score">4.9X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">11%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">4.3X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Unknown</td>
+            <td title="Score as a percentage">11%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Unknown</td>  
+            <td title="Score">4.3X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>
+            <td title="Score as a percentage">7%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>  
+            <td title="Score">2.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/2/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/2/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: 20</h2>
+    <h2>GLA: 1200</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Clothing and Clothing Accessories Stores</td>
+            <td title="Score as a percentage">23%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Clothing and Clothing Accessories Stores</td>  
+            <td title="Score">9.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Furniture and Home Furnishings Stores</td>
+            <td title="Score as a percentage">20%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Furniture and Home Furnishings Stores</td>  
+            <td title="Score">8.0X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">14%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">5.4X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, & Pet Care</td>
+            <td title="Score as a percentage">8%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, &amp; Pet Care</td>  
+            <td title="Score">3.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Unknown</td>
+            <td title="Score as a percentage">7%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Unknown</td>  
+            <td title="Score">2.7X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/20/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/20/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: 30-32</h2>
+    <h2>GLA: 2700</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">28%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">11.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">13%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">5.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, & Pet Care</td>
+            <td title="Score as a percentage">9%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, &amp; Pet Care</td>  
+            <td title="Score">3.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>
+            <td title="Score as a percentage">8%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>  
+            <td title="Score">3.1X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Unknown</td>
+            <td title="Score as a percentage">7%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Unknown</td>  
+            <td title="Score">2.9X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/30-32/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/30-32/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: 37</h2>
+    <h2>GLA: 1870</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">25%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">10.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, & Pet Care</td>
+            <td title="Score as a percentage">20%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, &amp; Pet Care</td>  
+            <td title="Score">7.9X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">10%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">4.1X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Unknown</td>
+            <td title="Score as a percentage">7%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Unknown</td>  
+            <td title="Score">2.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>
+            <td title="Score as a percentage">6%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>  
+            <td title="Score">2.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/37/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/37/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: B</h2>
+    <h2>GLA: 31500</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>
+            <td title="Score as a percentage">24%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>  
+            <td title="Score">9.4X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">23%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">9.4X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Miscellaneous Store Retailers</td>
+            <td title="Score as a percentage">8%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Miscellaneous Store Retailers</td>  
+            <td title="Score">3.1X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Other Services</td>
+            <td title="Score as a percentage">7%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Other Services</td>  
+            <td title="Score">2.9X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Supermarkets and Other Grocery Stores</td>
+            <td title="Score as a percentage">7%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Supermarkets and Other Grocery Stores</td>  
+            <td title="Score">2.8X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/B/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_80105/B/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all .slide-in-left elements
+    const slideInElements = document.querySelectorAll('.slide-in-left');
+
+    // Function to handle the slide-in effect
+    function slideIn() {
+        slideInElements.forEach(element => {
+            // Add the 'start-slide-in' class to start the animation
+            element.classList.add('start-slide-in');
+    });
+    }
+
+    // Function to check if an image is loaded
+    function isImageLoaded(imgElement) {
+        return imgElement.complete && imgElement.naturalHeight !== 0;
+    }
+
+    // Check if all images are loaded and apply the slide-in effect
+    slideInElements.forEach(element => {
+        const img = element.querySelector('img');
+        if (img) {
+            if (isImageLoaded(img)) {
+                // Image is loaded, apply the slide-in effect
+                slideIn();
+            } else {
+                // If image is not loaded, add an event listener
+                img.addEventListener('load', slideIn);
+                img.addEventListener('error', function() {
+                    console.error('Image failed to load:', img.src);
+            });
+            }
+        }
+    });
+});
+
+</script>
+
+<script>
+var head = new Typed('#head', {
+    strings: [
+    'Property Profile for <strong class="strong">Unigold Shopping Center</strong>'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+
+<script>
+var head = new Typed('#diversity', {
+    strings: [
+    'Property Diversity and Competition'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+
+<script>
+var head = new Typed('#vacancies', {
+    strings: [
+    'Vacancies'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+
+<script>
+var head = new Typed('#spaces', {
+    strings: [
+    'Vacancy Detail and Fill Recommendations'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+    
+</h2></h2></div></h2></h2></div></h2></h2></div></h2></h2></div></h2></h2></div></h2></h2></div></h2></h2></div></h3></h3></h3></h3>]]></content><author><name></name></author><category term="Regency_80105" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Plaza Venezia</title><link href="http://localhost:4000/Marc-Elias/regency_60810/2024/03/04/Regency_60810.html" rel="alternate" type="text/html" title="Plaza Venezia" /><published>2024-03-04T08:29:51-05:00</published><updated>2024-03-04T08:29:51-05:00</updated><id>http://localhost:4000/Marc-Elias/regency_60810/2024/03/04/Regency_60810</id><content type="html" xml:base="http://localhost:4000/Marc-Elias/regency_60810/2024/03/04/Regency_60810.html"><![CDATA[<div class="slide-in-left">
+<h1>
+    <span id="head"></span>
+</h1>
+</div>
+
+<!-- <div class="slide-in-left">
+X vacancies out of Y spaces.
+</div> -->
+
+<div class="slide-in-left">
+    
+    
+<img src="/Marc-Elias/assets/images/Regency_60810/60810.png" alt="Property Site Plan" class="img-responsive" />
+</div>
+
+<div class="slide-in-left">
+<h1>
+    <span id="vacancies"></span>
+</h1>
+</div>
+
+<div class="slide-in-left">
+<table class="vacancies-table">
+<thead>
+    <tr>
+    <th>Space ID</th>
+    <th>GLA</th>
+    </tr>
+</thead>
+<tbody>
+    
+    <tr>
+    <td>7598</td>
+    <td>2282</td>
+    </tr>
+    
+    <tr>
+    <td>7608</td>
+    <td>1066</td>
+    </tr>
+    
+    <tr>
+    <td>206</td>
+    <td>678</td>
+    </tr>
+    
+</tbody>
+</table>
+</div>
+
+<div class="slide-in-left">
+<h1>
+    <span id="diversity"></span>
+</h1>
+</div>
+
+<p><br /></p>
+
+<div class="slide-in-left">
+<img src="/Marc-Elias/assets/images/Regency_60810/diversity.svg" alt="Diversity Chart" class="img-responsive" />
+</div>
+
+<h3>About Diversity<h3>
+    <p class="small-text">We call how diverse the set of co-tenants is <strong>Property Diversity. Property Diversity </strong> ranges from 0% to 100%. 0% is the least diverse, meaning every tenant type is the same. 100% is the most diverse, meaning every tenant type is different. This metric considers both the presence and proportion of different tenant types in terms of the property’s overall GLA. It assumes that a more even distribution of GLA across tenant types indicates greater diversity. For more information about how metrics are calculated, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+<!-- Slide-in SVG image -->
+<div class="slide-in-left">
+<img src="/Marc-Elias/assets/images/Regency_60810/elasticity.svg" alt="Elasticity Chart" class="img-responsive" />
+</div>
+<h3>About Competitiveness<h3>
+    <p class="small-text"> How competitive each tenant is to every other tenant is measured by the cross tenant elasticity of demand. We then average the results and weight by tenant type GLA. The intuition of this metric is simple: competitors affect each other’s demand by increasing or decreasing their prices. Take Jelly and Jam stores as an example. Jelly stores compete with Jam stores. We know this because if the price of jelly goes up, people buy less jelly but buy more jam. On the other hand, if peanut butter gets more expensive, sales of both jelly and jam go down. Peanut Butter stores are not competitive with Jelly stores, while Jelly stores are quite competitive with Jam stores. For more information about how metrics are calculated, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+<hr />
+<br />
+<!-- Space Details and Images -->
+<div class="slide-in-left">
+<h1>
+    <span id="spaces"></span>
+</h1>
+</div>
+
+<div class="centered-text">
+    <h2>Space ID: 7598</h2>
+    <h2>GLA: 2282</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">18%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">7.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>
+            <td title="Score as a percentage">16%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>  
+            <td title="Score">6.3X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>
+            <td title="Score as a percentage">9%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>  
+            <td title="Score">3.7X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">9%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">3.5X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Finance and Insurance</td>
+            <td title="Score as a percentage">9%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Finance and Insurance</td>  
+            <td title="Score">3.5X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_60810/7598/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_60810/7598/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: 7608</h2>
+    <h2>GLA: 1066</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>
+            <td title="Score as a percentage">16%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>  
+            <td title="Score">6.4X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>
+            <td title="Score as a percentage">14%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>  
+            <td title="Score">5.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>
+            <td title="Score as a percentage">11%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">General Merchandise Stores</td>  
+            <td title="Score">4.4X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Unknown</td>
+            <td title="Score as a percentage">9%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Unknown</td>  
+            <td title="Score">3.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Furniture and Home Furnishings Stores</td>
+            <td title="Score as a percentage">9%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Furniture and Home Furnishings Stores</td>  
+            <td title="Score">3.4X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_60810/7608/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_60810/7608/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+<div class="centered-text">
+    <h2>Space ID: 206</h2>
+    <h2>GLA: 678</h2>
+    <!-- Recommendations Table for each space -->
+
+    <table class="recommendations-table">
+    <thead>
+        <tr>
+        <th>Recommendation</th>
+        <th>Score</th>
+        <!-- Add more column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>
+            <td title="Score as a percentage">30%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Arts, Entertainment and Recreation</td>  
+            <td title="Score">12.2X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, & Pet Care</td>
+            <td title="Score as a percentage">16%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Salons, Drycleaning/Laundry, &amp; Pet Care</td>  
+            <td title="Score">6.6X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Food and Beverage Stores</td>
+            <td title="Score as a percentage">7%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Food and Beverage Stores</td>  
+            <td title="Score">3.0X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>
+            <td title="Score as a percentage">6%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Health and Personal Care Stores</td>  
+            <td title="Score">2.5X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+        <!-- <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>
+            <td title="Score as a percentage">6%</td>
+        </tr> TODO: don't hard code the .025 division. should be / len(_model_classes) -->
+        <tr>
+            <td title="Details about recommendation">Limited-Service Restaurants Fast casual restaurants</td>  
+            <td title="Score">2.5X</td>
+            <!-- Add more cells as needed -->
+        </tr>
+        
+    </tbody>
+    </table>
+    <h2>About Recommendations<h2>
+    <p class="small-text">A score of 10X means that the recommended tenant type is 10 times more useful to your property than any other tenant type. For more information about how recommendations are made, please visit our <a href="/Marc-Elias/docs/faqs/">FAQs page</a>.</p>
+
+
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_60810/206/cotenant_impact.svg" alt="Cotenant Impact Chart" class="img-responsive" />
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slide-in-left">
+    <img src="/Marc-Elias/assets/images/Regency_60810/206/metric_changes.svg" alt="Metric Changes Chart" class="img-responsive" />
+</div>
+<br />
+<br />
+<br />
+<hr />
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all .slide-in-left elements
+    const slideInElements = document.querySelectorAll('.slide-in-left');
+
+    // Function to handle the slide-in effect
+    function slideIn() {
+        slideInElements.forEach(element => {
+            // Add the 'start-slide-in' class to start the animation
+            element.classList.add('start-slide-in');
+    });
+    }
+
+    // Function to check if an image is loaded
+    function isImageLoaded(imgElement) {
+        return imgElement.complete && imgElement.naturalHeight !== 0;
+    }
+
+    // Check if all images are loaded and apply the slide-in effect
+    slideInElements.forEach(element => {
+        const img = element.querySelector('img');
+        if (img) {
+            if (isImageLoaded(img)) {
+                // Image is loaded, apply the slide-in effect
+                slideIn();
+            } else {
+                // If image is not loaded, add an event listener
+                img.addEventListener('load', slideIn);
+                img.addEventListener('error', function() {
+                    console.error('Image failed to load:', img.src);
+            });
+            }
+        }
+    });
+});
+
+</script>
+
+<script>
+var head = new Typed('#head', {
+    strings: [
+    'Property Profile for <strong class="strong">Plaza Venezia</strong>'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+
+<script>
+var head = new Typed('#diversity', {
+    strings: [
+    'Property Diversity and Competition'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+
+<script>
+var head = new Typed('#vacancies', {
+    strings: [
+    'Vacancies'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+
+<script>
+var head = new Typed('#spaces', {
+    strings: [
+    'Vacancy Detail and Fill Recommendations'
+    ],
+    typeSpeed: 30,
+    startDelay: 200,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|'
+});
+</script>
+    
+</h2></h2></div></h2></h2></div></h2></h2></div></h3></h3></h3></h3>]]></content><author><name></name></author><category term="Regency_60810" /><summary type="html"><![CDATA[]]></summary></entry></feed>

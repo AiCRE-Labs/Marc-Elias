@@ -1,0 +1,15 @@
+title: AiCRE
+baseurl: "/Marc-Elias"
+url: ""
+github_username: AiCRE-Labs
+
+# Build settings
+theme: minima
+plugins:
+- jekyll-feed
+
+collections:
+    docs:
+        output: true
+        permalink: /docs/:path/
+    

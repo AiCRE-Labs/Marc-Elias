@@ -1,0 +1,629 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import "minima";
+
+// #01ff12 - bright green
+// #8dd443 - jungle green
+
+h1 {
+  text-align: center; /* This centers all 'h1' elements */
+}
+
+.centered-landing-text {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdfdfd;
+  color: black;
+  margin: 0;
+  font-size: 10em;
+}
+
+.centered-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdfdfd;
+  color: black;
+  margin-top: 10vh; /* Adjust the top margin based on viewport height */
+  font-size: 2em;
+  flex-direction: column;
+}
+
+@keyframes typing {
+  from {
+    max-width: 0;
+    visibility: hidden;
+  }
+  to {
+    max-width: 100ch; /* This should be large enough to accommodate the largest expected text. */
+    visibility: visible;
+  }
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #01ff12; }
+  }
+
+.typing-effect {
+  font-family: 'Zen Dots', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #333;
+  overflow: hidden;
+  border-right: .15em solid #01ff12;
+  white-space: nowrap;
+  letter-spacing: .15em;
+  display: inline-block;
+  visibility: hidden;
+  width: auto;
+  max-width: 0;
+  animation: 
+    typing 2s steps(40, end) forwards,
+    blink-caret 1s step-end infinite;
+}
+
+/* Non-typing centered text */
+.centered-text.standard {
+  animation: fadeIn 2s ease-in forwards;
+  opacity: 0;
+  font-size: 1.5em; /* Adjust the font size as needed */
+  margin-top: 5vh; /* Adjust as needed for space after the typing effect elements */
+}
+
+
+.underlined-text {
+  text-decoration: underline;
+
+}
+ 
+a {
+  transition: color 0.3s ease, transform 0.2s ease; /* Smooth transitions for color and transform */
+}
+
+a:hover {
+color: #01ff12; /* Change to your desired hover color */
+text-decoration: underline; /* Optional: adds an underline on hover */
+transform: translateY(-2px); /* Moves the link up 2 pixels */
+}
+
+
+
+// .u-email, .links-container, .footer-section, .footer-sections, .u-url
+/* Optional: Additional styling for links */
+.how-it-works-link, .u.email{
+    // min-width: 150px; /* Ensures the links are not too narrow */
+    // margin-top: 10px;
+    margin-right: 5px; /* Space between icon and text */
+    margin-left: 5px;
+    // color: #0000006b; /* GitHub's typical black color for consistency */
+    /* Add any specific styles you want for the links here */
+}
+.footer-col-wrapper {
+    display: flex;
+    justify-content: center; /* Centers the footer columns horizontally */
+    flex-wrap: wrap; /* Allows the footer columns to wrap on smaller screens */
+}
+/* Styles for the footer list items */
+.footer-col-list {
+  list-style: none; /* This removes the bullet points */
+  padding: 0;
+  margin: 0; /* Resets default margin */
+}
+
+.footer-col {
+  flex: 1;
+  margin-bottom: 20px;
+}
+.footer-col-heading {
+  margin-bottom: 10px;
+  font-size: 14px;
+  // text-transform: uppercase;
+  // font-weight: bold;
+}
+.footer-col-list li a {
+  text-decoration: none;
+  color: #645e5ee0; /* Change this color to match your design */
+  font-size: 12px;
+}
+/* Add this rule for hover effect */
+.footer-col-list li a:hover {
+  color: #01ff12; /* Your desired hover color */
+  text-decoration: underline; /* Adds an underline on hover */
+
+}
+.footer-sections {
+    display: flex;
+    width: 100%; /* Ensures the footer sections take up the full width */
+    justify-content: center; /* Centers the footer sections horizontally */
+    align-items: center; /* Centers the footer sections vertically */
+    text-align: center; /* Ensures text within each section is centered */
+    border-left: 0px solid #ddd; /* Keeps the existing vertical line */
+}
+
+.footer-section {
+    flex: 1; /* Allows each section to grow and take up equal space */
+    padding: 0px; /* Keeps your existing padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the content vertically within each section */
+    align-items: center; /* Centers the content horizontally within each section */
+}
+
+/* Adjustments for smaller screens to maintain centered content */
+@media (max-width: 768px) {
+    .footer-col-wrapper {
+        flex-direction: column;
+        align-items: center; /* Center-align items for a cleaner look on mobile */
+    }
+
+    .footer-sections {
+        flex-direction: column; /* Stacks the sections on top of each other */
+        border-left: none; /* Removes the vertical line on smaller screens */
+    }
+
+    .footer-section {
+        padding: 10px; /* Reduces padding on smaller screens */
+        align-items: center; /* Ensures content is centered within each section */
+    }
+    // .logo img {
+    //   width: 200px; /* Smaller screens get a smaller logo */
+    // }
+}
+// @media (max-width: 767px) {
+//   .logo img {
+//     width: 150px; /* Smaller screens get a smaller logo */
+//   }
+// }
+
+/* Ensure that the overall footer is centered and does not take up too much space */
+.site-footer {
+    padding: 15px; /* Adjust the padding as needed */
+    text-align: center; /* Ensures that the text is centered */
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .slide-in-left {
+    opacity: 0; /* Start elements as invisible */
+    transform: translateX(-100%);
+    width: 100%; /* Full width of the parent container */
+    max-width: 1200px; /* Optional: set a max-width if needed */
+    margin: auto; /* Center the container */
+    display: block; /* Makes it a block element */
+  }
+  
+  .slide-in-left.start-slide-in {
+    opacity: 1;
+    transform: translateX(0);
+    animation: slideInFromLeft 0.5s ease-out forwards;
+  }
+  
+  /* Ensure the container fits well in different screen sizes */
+  @media (max-width: 768px) {
+    .slide-in-left {
+      max-width: 100%; /* Adjust max-width for smaller screens */
+    }
+  }
+  
+
+  /* Add this to your CSS file */
+.img-responsive {
+  width: 100%;
+  max-width: 1200px; /* Set the maximum width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below image */
+}
+
+/* Table styles */
+.recommendations-table {
+  width: 100%; /* Make the table full width */
+  border-collapse: collapse; /* Collapse borders */
+  margin-bottom: 20px; /* Add space below the table */
+}
+
+.recommendations-table th,
+.recommendations-table td {
+  padding: 10px; /* Add padding inside cells */
+  text-align: left; /* Align text to the left */
+  border: 1px solid #ddd; /* Add a border to the cells */
+}
+
+.recommendations-table th {
+  background-color: #f8f8f8; /* Add a background color to header cells */
+  font-size: 16px; /* Change font size for header cells */
+}
+
+.recommendations-table td {
+  font-size: 14px; /* Change font size for body cells */
+}
+
+
+/* Table styles */
+.vacancies-table {
+  width: 100%; /* Make the table full width */
+  border-collapse: collapse; /* Collapse borders */
+  margin-bottom: 20px; /* Add space below the table */
+}
+
+.vacancies-table th,
+.vacancies-table td {
+  padding: 10px; /* Add padding inside cells */
+  text-align: left; /* Align text to the left */
+  border: 1px solid #ddd; /* Add a border to the cells */
+}
+
+.vacancies-table th {
+  background-color: #f8f8f8; /* Add a background color to header cells */
+  font-size: 16px; /* Change font size for header cells */
+}
+
+.vacancies-table td {
+  font-size: 14px; /* Change font size for body cells */
+}
+
+/* Centered text styles */
+.centered-text h3 {
+  font-size: 18px; /* Change font size for h3 elements */
+  margin-bottom: 5px; /* Add space below the h3 element */
+}
+
+
+// horizontal line
+hr {
+  border: none; /* Remove the default border */
+  height: 1px; /* Set the height of the line */
+  background-color: #01ff12; /* Set the color of the line */
+  margin: 20px 0; /* Add some space above and below the line */
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* Optional: adds underline to indicate it's hoverable */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Initially hide headers */
+.hidden-header {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Class to be added when header is in viewport */
+.visible-header {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hover effect for page-link class */
+.page-link:hover {
+  color: #01ff12; /* Change to your desired hover color */
+  text-decoration: underline; /* Optional: adds an underline on hover */
+}
+/* Hover effect for page-link class */
+.site-title:hover {
+  color: #01ff12; /* Change to your desired hover color */
+  text-decoration: underline; /* Optional: adds an underline on hover */
+}
+.logo {
+  width: 10%;  /* Adjust the width as needed */
+  height: auto;  /* Keeps the aspect ratio intact */
+}
+
+.site-header .wrapper {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align vertically */
+  // justify-content: space-between; /* Space out logo and navigation */
+}
+// vvv - TESTING - vvv - to fix logo and nav links colliding
+/* Specific styles for the site header */
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.site-header .logo {
+  flex-shrink: 0; /* Prevent logo from shrinking */
+}
+
+.site-header .site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-header .page-link {
+  margin-right: 20px; /* Space between navigation links */
+  white-space: nowrap; /* Ensure that the link text does not wrap */
+  padding: 0 10px; /* Adjust padding to control the space */
+}
+
+/* Hamburger menu styles, scoped to the site header */
+.site-header .nav-trigger {
+  display: none; /* Hide the checkbox */
+}
+
+.site-header .menu-icon {
+  display: none; /* Hide menu icon by default */
+}
+
+/* Styles for when the menu is triggered, scoped to the site header */
+.site-header .trigger {
+  display: none; /* Hide the trigger container by default */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  /* Show the hamburger menu and hide the navigation links by default, scoped to the site header */
+  .site-header .nav-trigger {
+    display: none; /* Show the checkbox */
+  }
+
+  .site-header .menu-icon {
+    display: block; /* Show menu icon */
+  }
+
+  .site-header .trigger {
+    display: block; /* Show the trigger container */
+  }
+
+  /* Hide the navigation links unless the trigger is checked, scoped to the site header */
+  .site-header .nav-trigger:checked + .menu-icon + .trigger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust the navigation links to be columnar, scoped to the site header */
+  .site-header .page-link {
+    margin-right: 0;
+    margin-bottom: 5px; /* Space between stacked links */
+  }
+}
+
+@media (min-width: 769px) {
+  /* Ensure navigation is always shown on larger screens, scoped to the site header */
+  .site-header .trigger {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .site-header .page-link:last-child {
+    margin-right: 0; /* Remove the margin on the last link to align it properly */
+  }
+}
+
+// ^^^ TESTING ^^^
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .site-nav .nav-link {
+    padding: 0 10px; /* Less padding on smaller screens */
+  }
+}
+/* Add some padding to each link for better spacing and appearance */
+.page-link:not(:last-child) {
+  padding-right: 20px; /* Adjust spacing as needed */
+}
+
+/* Responsive font size adjustment
+@media (max-width: 768px) {
+  .centered-text {
+    font-size: 1.5em; 
+  }
+
+  #typed-static, #capabilities {
+    font-size: 1em; 
+  }
+}
+*/
+/* Specific styles for links inside .typed-strong class */
+.typed-strong a {
+  color: gold; /* The color you want for your links */
+  text-decoration: none; /* Removes underline from links */
+  transition: color 0.3s ease; /* Smooth transition for color changes */
+}
+
+.typed-strong a:hover {
+  color: #01ff12; /* Color for hover state */
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+// .typed-strong {
+//   color: gold; /* #51a9a8 Change the color to green */
+// } 
+.typed-weak {
+  color: black; /* Change the color to green */
+} 
+
+
+// for svg animation on loading index.md
+
+.hexagon-container {
+  width: max-content;
+  max-width: 100px;
+  margin: 0 auto; /* Center the container */
+}
+
+.hexagon-container svg {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto;
+  fill: none;
+}
+
+
+svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  fill: none;
+}
+
+
+.typing-effect {
+  text-align: left;
+}
+
+// .gallery {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+//   gap: 20px;
+// }
+
+// .gallery-item {
+//   border: 1px solid #ddd;
+//   padding: 10px;
+//   text-align: center;
+// }
+/* Responsive font sizes */
+html {
+  font-size: 100%; /* 16px */
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 90%; /* 14.4px */
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 80%; /* 12.8px */
+  }
+}
+
+.centered-landing-text, .centered-text {
+  font-size: 2rem; /* Adjusts with root font size */
+}
+
+/* Updated media queries */
+@media (max-width: 768px) {
+  .centered-landing-text {
+    font-size: 1.5rem; /* Adjusts font size on smaller screens */
+  }
+
+  .centered-text {
+    margin-top: 5vh;
+    font-size: 1.2rem;
+  }
+
+  .footer-col-heading, .footer-col-list li a {
+    font-size: 0.9rem;
+  }
+
+  .typing-effect {
+    font-size: 1rem;
+  }
+}
+
+/* Touch targets */
+// a, button {
+//   min-width: 44px; /* Minimum recommended size */
+//   min-height: 44px;
+//   padding: 10px;
+// }
+
+/* Remaining CSS */
+/* ... (Keep the rest of your CSS as is, ensuring responsiveness) */
+
+body {
+  margin: 50px;
+}
+
+.arrow-link {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 20px;
+  -webkit-transition: all .15s ease-in-out;
+  color: #313131;
+  background-color: transparent;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:after {
+    position: relative;
+    bottom: 0.4ex;
+    margin-left: 5px;
+    content: "▶";
+    color: #01ff12;
+    font-family: "FontAwesome";
+    font-size: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transition: all .15s ease-in-out;
+  }
+
+  &:hover {
+    color: #777;
+  }
+
+  &:hover:after {
+    transform: translateX(7px);
+  }
+}
+
+/* Make sure .arrow-link inherits color from .typed-strong when both are applied */
+.typed-strong.arrow-link {
+  color: inherit; /* This will make it use the color from .typed-strong */
+}
+
+/* If you want the arrow link to also have the hover effect */
+.typed-strong.arrow-link:hover {
+  color: #01ff12; /* Color for hover state */
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+// @media (max-width: 480px) {
+//   .logo img {
+//     width: 400px; /* Or any other size that looks good on small screens */
+//   }
+// }
+
+.logo img {
+  width: 1000px; /* Set your desired fixed width */
+  height: auto; /* Keeps the aspect ratio intact */
+}
+.small-text {
+  font-size: 0.55em; /* Adjust the size as needed */
+}
